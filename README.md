@@ -21,6 +21,19 @@ Beyond reproducing VisDiff baselines, we further test CURF with **Qwen2.5-VL** a
 
 <img src="data/ISDC.png"></img>
 
+## 📊 Results
+
+We evaluate CURF against VisDiff baselines on **VisDiffBench**.  
+Our method achieves the best performance across all subsets:
+
+| VisDiffBench | CURF | BLIP-2 + GPT-4o + CLIP | LLaVA-1.5 + CLIP | Qwen2.5-VL + GPT-4o + CLIP |
+|--------------|------|--------------------------|------------------|-----------------------------|
+| ImageNet-R/* | **0.86** | 0.78 | 0.46 | 0.71 |
+| PIS-Easy     | **0.92** | 0.80 | 0.51 | 0.86 |
+| PIS-Medium   | **0.80** | 0.66 | 0.35 | 0.78 |
+| PIS-Hard     | **0.72** | 0.55 | 0.26 | 0.65 |
+
+
 ## 🚀 Getting Started
 
 Here we provide a minimal example to describe the differences between two sets of images, where [set A](./data/examples/set_a/) are images showing `people practicing yoga in a mountainous setting` and [set B](./data/examples/set_b/) are images showing `people meditating in a mountainous setting`.
