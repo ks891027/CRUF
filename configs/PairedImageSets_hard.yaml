@@ -1,0 +1,5 @@
+project: PairedImageSets_hard_1214 
+data:
+  name: PairedImageSets
+  group1: "Men wearing suits"
+  group2: "Men wearing tuxedos"
